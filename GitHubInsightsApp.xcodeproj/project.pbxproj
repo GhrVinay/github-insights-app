@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		37CF2EDC2ED4D6D000798890 /* plan.md in Resources */ = {isa = PBXBuildFile; fileRef = 37CF2EDA2ED4D6D000798890 /* plan.md */; };
+		37CF2EEE2ED4D73600798890 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 37CF2EED2ED4D73600798890 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		3702978D2ED22D26001AE3E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -19,6 +24,8 @@
 /* Begin PBXFileReference section */
 		370296C62ED1B61F001AE3E6 /* GitHubInsightsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubInsightsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		370297892ED22D26001AE3E6 /* GitHubInsightsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubInsightsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37CF2EDA2ED4D6D000798890 /* plan.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = plan.md; sourceTree = "<group>"; };
+		37CF2EED2ED4D73600798890 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
@@ -70,6 +77,8 @@
 			children = (
 				370296C82ED1B61F001AE3E6 /* GitHubInsightsApp */,
 				3702978A2ED22D26001AE3E6 /* GitHubInsightsAppTests */,
+				37CF2EDA2ED4D6D000798890 /* plan.md */,
+				37CF2EED2ED4D73600798890 /* README.md */,
 				370296C72ED1B61F001AE3E6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -175,6 +184,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37CF2EEE2ED4D73600798890 /* README.md in Resources */,
+				37CF2EDC2ED4D6D000798890 /* plan.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
